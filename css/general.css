@@ -1,16 +1,5 @@
-body {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  flex-direction: column;
-}
-
 .innerPage {
   width: 100%;
-}
-
-.audio{
-  margin-top: 10px;
 }
 
 .innerPage--intro {
@@ -149,5 +138,84 @@ body {
 .estrellasColores {
   width: 40%;
   margin-left: 16px;
+}
+
+@-webkit-keyframes float {
+  0% {
+    -webkit-transform: translatey(0px);
+            transform: translatey(0px);
+  }
+  50% {
+    -webkit-transform: translatey(-20px);
+            transform: translatey(-20px);
+  }
+  100% {
+    -webkit-transform: translatey(0px);
+            transform: translatey(0px);
+  }
+}
+
+@keyframes float {
+  0% {
+    -webkit-transform: translatey(0px);
+            transform: translatey(0px);
+  }
+  50% {
+    -webkit-transform: translatey(-20px);
+            transform: translatey(-20px);
+  }
+  100% {
+    -webkit-transform: translatey(0px);
+            transform: translatey(0px);
+  }
+}
+
+@-webkit-keyframes opacity {
+  0% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: hidden;
+  -webkit-transform: translatey(0px);
+          transform: translatey(0px);
+  -webkit-animation: float 6s ease-in-out infinite;
+          animation: float 6s ease-in-out infinite;
+  position: relative;
+  z-index: 6;
+}
+
+.avatar img {
+  width: 100%;
+  height: auto;
+}
+
+.animation {
+  opacity: 1;
+  -webkit-animation: opacity 1s ease-in-out infinite;
+          animation: opacity 1s ease-in-out infinite;
 }
 /*# sourceMappingURL=general.css.map */

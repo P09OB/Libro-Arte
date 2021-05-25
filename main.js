@@ -1,5 +1,6 @@
 var pages = document.getElementsByClassName('page');
 var img = document.querySelector('.innerPage__aparecer');
+var button = document.querySelector('.button');
 
 for(var i = 0; i < pages.length; i++)
   {
@@ -31,18 +32,24 @@ document.addEventListener('DOMContentLoaded', function(){
       }
 });
 
-function imagenAparecer(){
+button.addEventListener('click', ()=>{
 
-	img.classList.remove('hidden');
-setTimeout(imagenDesaparecer,1000);
-	
+  function imagenAparecer(){
 
-}
+    img.classList.remove('hidden');
+  setTimeout(imagenDesaparecer,1000);
+    
+  
+  }
+  
+  function imagenDesaparecer(){
+    img.classList.add('hidden');
+  setTimeout(imagenAparecer,1000);
+  }
+  
+  setTimeout(imagenAparecer,1000);
 
-function imagenDesaparecer(){
-	img.classList.add('hidden');
-setTimeout(imagenAparecer,1000);
-}
+});
 
-setTimeout(imagenAparecer,1000);
+
 

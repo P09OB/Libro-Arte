@@ -150,4 +150,50 @@
     margin-left: 16px;
 }
 
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+@keyframes opacity {
+
+    0% {
+		opacity: 0.5;
+	}
+	50% {
+		opacity: 0.5;
+
+	}
+	100% {
+		opacity: 1;
+	}
+    
+}
+
+.avatar {
+	width: 150px;
+	height: 150px;
+	box-sizing: border-box;
+	overflow: hidden;
+	transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+	img { width: 100%; height: auto; }
+    position: relative;
+    z-index: 6;
+}
+
+.animation{
+    opacity: 1;
+	animation: opacity 1s ease-in-out infinite;
+
+
+}
+
 
