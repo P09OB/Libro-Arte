@@ -213,9 +213,103 @@
   height: auto;
 }
 
+.avatar__planeta1 {
+  top: 45px;
+  left: 25px;
+}
+
+.avatar__planeta2 {
+  bottom: 30px;
+  left: 260px;
+}
+
 .animation {
   opacity: 1;
   -webkit-animation: opacity 1s ease-in-out infinite;
           animation: opacity 1s ease-in-out infinite;
+}
+
+.estrella__1 {
+  top: 20px;
+  right: 30px;
+  position: absolute;
+}
+
+.estrella__1U {
+  top: 20px;
+  left: 70px;
+  position: absolute;
+}
+
+.estrella__2 {
+  top: 90px;
+  right: 100px;
+  position: absolute;
+}
+
+.estrella__3 {
+  bottom: 150px;
+  right: 0px;
+  position: absolute;
+}
+
+.estrella__4 {
+  left: 25px;
+  top: 180px;
+  position: absolute;
+}
+
+.estrella__5 {
+  -webkit-transform: translateX(180px);
+          transform: translateX(180px);
+  position: absolute;
+}
+
+.estrella__6 {
+  bottom: 0px;
+  left: 30px;
+  position: absolute;
+}
+
+.estrellaColor__s1AA {
+  bottom: 90px;
+  left: -5px;
+  position: absolute;
+}
+
+.estrellaColor__s2N {
+  bottom: 0px;
+  right: 25px;
+  position: absolute;
+}
+
+.estrellaColor__s4A {
+  bottom: 200px;
+  left: 14px;
+  position: absolute;
+}
+
+.estrellaColor__s3R {
+  bottom: 50px;
+  left: 100px;
+  position: absolute;
+}
+
+.estrellaColor__s7A {
+  bottom: 150px;
+  right: 50px;
+  position: absolute;
+}
+
+.estrellaColor__s6A {
+  top: 180px;
+  right: 120px;
+  position: absolute;
+}
+
+.estrellaColor__s5A {
+  top: 70px;
+  right: 20px;
+  position: absolute;
 }
 /*# sourceMappingURL=general.css.map */

@@ -187,13 +187,113 @@
 	img { width: 100%; height: auto; }
     position: relative;
     z-index: 6;
+
+    &__planeta1{
+        top:45px;
+        left: 25px;
+    }
+
+    &__planeta2{
+        bottom: 30px;
+        left: 260px;
+    }
+
 }
 
 .animation{
     opacity: 1;
-	animation: opacity 1s ease-in-out infinite;
-
-
+	animation: opacity 1s ease-in-out infinite
 }
 
+
+.estrella{
+
+    &__1{
+        top: 20px;
+        right: 30px;
+        position: absolute;
+    }
+
+    &__1U{
+        top: 20px;
+        left: 70px;
+        position: absolute;
+    }
+
+    &__2{
+        top:90px;
+        right: 100px;
+        position: absolute;
+    }
+
+    &__3{
+        bottom: 150px;
+        right: 0px;
+        position: absolute;
+    }
+
+    &__4{
+        left: 25px;
+        top: 180px;
+        position: absolute;
+    }
+
+    &__5{
+        transform: translateX(180px);
+        position: absolute;
+    }
+
+    &__6{
+        bottom: 0px;
+        left: 30px;
+        position: absolute;
+    }
+}
+
+
+.estrellaColor{
+
+    &__s1AA{
+        bottom: 90px;
+        left: -5px;
+        position: absolute;
+    }
+
+    &__s2N{
+        bottom: 0px;
+        right:25px;
+        position: absolute;
+    }
+
+    
+    &__s4A{
+        bottom: 200px;
+        left: 14px;
+        position: absolute;
+    }
+
+    &__s3R{
+        bottom: 50px;
+        left: 100px;
+        position: absolute;
+    }
+
+    &__s7A{
+        bottom: 150px;
+        right: 50px;
+        position: absolute;
+    }
+
+    &__s6A{
+        top: 180px;;
+        right: 120px;
+        position: absolute;
+    }
+
+    &__s5A{
+        top: 70px;;
+        right: 20px;
+        position: absolute;
+    }
+}
 
