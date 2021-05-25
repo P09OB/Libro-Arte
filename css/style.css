@@ -13,6 +13,10 @@
   outline: none;
 }
 
+.hidden{
+  display: none !important;
+}
+
 .book {
 
     transition: opacity 0.4s 0.2s;
