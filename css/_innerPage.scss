@@ -1,0 +1,153 @@
+.innerPage{
+    width: 100%;
+    
+    &--intro{
+        background-size: cover;
+        height: 100%;
+        background-image: url('../img/fondo1.png');
+    }
+
+    &--page3{
+        height: 100%;
+
+        background-size: cover;
+        background-image: url('../img/henriettaFondo1.png');
+
+    }
+
+    &--page4{
+        height: 100%;
+
+        background-size: cover;
+        background-image: url('../img/fondoInteract1.jpg');
+
+    }
+
+    &--page5{
+        height: 100%;
+
+        background-size: cover;
+        background-image: url('../img/fondoInteract2.jpg');
+
+    }
+    &--page6{
+        height: 100%;
+
+        background-size: cover;
+        background-image: url('../img/fondo8.png');
+
+    }
+    &--page7{
+        height: 100%;
+
+        background-size: cover;
+        background-image: url('../img/fondoAnnie.png');
+
+    }
+    &--page8{
+        height: 100%;
+
+        background-size: cover;
+        background-image: url('../img/fondoInteract3.jpg');
+
+    }
+
+    &--page9 {
+        height: 100%;
+
+        background-size: cover;
+        background-image: url('../img/fondoInteract4.jpg');
+
+    }
+}
+
+.text{
+    width: 85%;
+    padding-left: 15px;
+    font-family: EB Garamond;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.07vw;
+    line-height: 160%;
+
+
+    &__intro{
+        display: flex;
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+
+    
+    &__henrietta{  
+        width: 64%;
+        padding: 0% 2%; 
+    }
+
+    &__interaction1{
+        width: 80%;
+        margin-left: 45px;
+        padding-top: 30px;
+    }
+
+    &__annie1{
+        width: 57%;
+    }
+
+    &__annie2{
+        width: 55%;
+        margin-left: 168px;
+        margin-top: 5px;
+    }
+
+    &__interaction2{
+        margin-left: 20px;
+    }
+
+    &__interaction3{
+        padding-top: 105px;
+        width:70%;
+    }
+
+}
+
+.minitext{
+    width: 95%;
+    padding: 0% 5%;
+    margin-left: 25px;
+    font-size: 13.5px;
+}
+
+
+.titles{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0% 10%;
+    font-family: 'Motteka';
+    text-align: center;
+    padding-top: 50px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 100%;
+
+    &__interaction2{
+        font-size: 32px;
+    }
+
+  }
+
+
+
+.textImageCont{
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+}
+
+.estrellasColores{
+    width: 40%;
+    margin-left: 16px;
+}
+
+

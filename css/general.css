@@ -1,0 +1,142 @@
+.innerPage {
+  width: 100%;
+}
+
+.innerPage--intro {
+  background-size: cover;
+  height: 100%;
+  background-image: url("../img/fondo1.png");
+}
+
+.innerPage--page3 {
+  height: 100%;
+  background-size: cover;
+  background-image: url("../img/henriettaFondo1.png");
+}
+
+.innerPage--page4 {
+  height: 100%;
+  background-size: cover;
+  background-image: url("../img/fondoInteract1.jpg");
+}
+
+.innerPage--page5 {
+  height: 100%;
+  background-size: cover;
+  background-image: url("../img/fondoInteract2.jpg");
+}
+
+.innerPage--page6 {
+  height: 100%;
+  background-size: cover;
+  background-image: url("../img/fondo8.png");
+}
+
+.innerPage--page7 {
+  height: 100%;
+  background-size: cover;
+  background-image: url("../img/fondoAnnie.png");
+}
+
+.innerPage--page8 {
+  height: 100%;
+  background-size: cover;
+  background-image: url("../img/fondoInteract3.jpg");
+}
+
+.innerPage--page9 {
+  height: 100%;
+  background-size: cover;
+  background-image: url("../img/fondoInteract4.jpg");
+}
+
+.text {
+  width: 85%;
+  padding-left: 15px;
+  font-family: EB Garamond;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.07vw;
+  line-height: 160%;
+}
+
+.text__intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.text__henrietta {
+  width: 64%;
+  padding: 0% 2%;
+}
+
+.text__interaction1 {
+  width: 80%;
+  margin-left: 45px;
+  padding-top: 30px;
+}
+
+.text__annie1 {
+  width: 57%;
+}
+
+.text__annie2 {
+  width: 55%;
+  margin-left: 168px;
+  margin-top: 5px;
+}
+
+.text__interaction2 {
+  margin-left: 20px;
+}
+
+.text__interaction3 {
+  padding-top: 105px;
+  width: 70%;
+}
+
+.minitext {
+  width: 95%;
+  padding: 0% 5%;
+  margin-left: 25px;
+  font-size: 13.5px;
+}
+
+.titles {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0% 10%;
+  font-family: 'Motteka';
+  text-align: center;
+  padding-top: 50px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 100%;
+}
+
+.titles__interaction2 {
+  font-size: 32px;
+}
+
+.textImageCont {
+  margin-top: 15px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.estrellasColores {
+  width: 40%;
+  margin-left: 16px;
+}
+/*# sourceMappingURL=general.css.map */
