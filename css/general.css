@@ -50,6 +50,18 @@
   background-image: url("../img/fondoInteract4.jpg");
 }
 
+.innerPage--page10 {
+  height: 100%;
+  background-size: cover;
+  background-image: url("../img/fondo8.png");
+}
+
+.innerPage--page11 {
+  height: 100%;
+  background-size: cover;
+  background-image: url("../img/fondo9.png");
+}
+
 .text {
   width: 85%;
   padding-left: 15px;
