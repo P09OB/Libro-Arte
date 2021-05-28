@@ -179,3 +179,12 @@ transform: translateY(200px);
     width: 100%;
     left: 0px;
   }
+
+  .lupa{
+    position: absolute;
+
+    left: 250px;
+    top: 410px;
+
+
+  }
