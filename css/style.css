@@ -26,6 +26,13 @@ transform: translateY(200px);
   display: none !important;
 }
 
+.interaccion{
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  width: 20%;
+}
+
 .book {
 
     transition: opacity 0.4s 0.2s;
@@ -186,5 +193,10 @@ transform: translateY(200px);
     left: 250px;
     top: 410px;
 
+
+  }
+
+  .audio{
+    margin-left: 555px;
 
   }

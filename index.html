@@ -17,6 +17,7 @@
 <body>
   <link href="https://fonts.googleapis.com/css?family=Lovers+Quarrel" rel="stylesheet">
   <div class="book">
+    <audio class="audio" src="./audios/AudioUnido.mp3" preload="none" controls></audio>
 
     <div id="pages" class="pages">
 
@@ -93,11 +94,11 @@
 
 
           <img class="estrella__6 innerPage__aparecer hidden" src="./img/s5.png">
-          <img class="estrella__4" src="./img/s4.png">
-          <img class="estrella__2" src="./img/s2.png">
-          <img class="estrella__3" src="./img/s3.png">
+          <img class="estrella__4 star--1 hidden" src="./img/s4.png">
+          <img class="estrella__2 star--1 hidden" src="./img/s2.png">
+          <img class="estrella__3 star--1 hidden" src="./img/s3.png">
           <img class="estrella__1 innerPage__aparecer hidden" src="./img/s1.png">
-          <img class="estrella__1U" src="./img/s1.png">
+          <img class="estrella__1U star--1 hidden"  src="./img/s1.png">
           <img class="lupa" src="./img/lupa.png">
 
 
@@ -139,8 +140,8 @@
             Annie descubrió que las estrellas más grandes y de color azul son las más jovenes y las que tienen
             temperatura más caliente debido a que generan más energia.</p>
           <div class="animation">
-            <img class="estrellaColor__s1AA" src="./img/s1AA.png">
-            <img class="estrellaColor__s2N" src="./img/s2N.png">
+            <img class="estrellaColor__s1AA blanco hidden" src="./img/s1AA.png">
+            <img class="estrellaColor__s2N naranja hidden" src="./img/s2N.png">
           </div>
         </div>
       </div>
@@ -151,11 +152,11 @@
             generan menos energia y tienen
             menos temperatura.</p>
           <div class="animation">
-            <img class="estrellaColor__s3R" src="./img/s3R.png">
-            <img class="estrellaColor__s4A" src="./img/S4A.png">
-            <img class="estrellaColor__s5A" src="./img/S5A.png">
-            <img class="estrellaColor__s6A" src="./img/S6A.png">
-            <img class="estrellaColor__s7A" src="./img/S7A.png">
+            <img class="estrellaColor__s3R red hidden" src="./img/s3R.png">
+            <img class="estrellaColor__s4A azul hidden" src="./img/S4A.png">
+            <img class="estrellaColor__s5A amarillo hidden" src="./img/S5A.png">
+            <img class="estrellaColor__s6A azulClaro hidden" src="./img/S6A.png">
+            <img class="estrellaColor__s7A amarrilloIn hidden" src="./img/S7A.png">
           </div>
         </div>
       </div>
@@ -187,12 +188,26 @@
         <img class="imgBackground" src="./img/fondoFinal.jpg">
       </div>
     </div>
+    
 
   </div>
-  <button class="button">Encender</button>
 
-  <audio class="audio" src="./audios/AudioUnido.mp3" preload="none" controls></audio>
+  <div class="interaccion">
+  <p class="text--instruccion hidden">Veamos lo que aprendiste, presiona el botón para ver las estrellas en la foto como lo hacia Henrietta.</p>
+  <p class="text--interaccion1 hidden">Ahora analiza la foto ¿ cuantas estrellas cefeidas logras ver?</p>
+  <div class="button--interaccion1 hidden">
+  <button class="opcion1">1</button>
+  <button class="opcion2">2</button>
+  <button class="opcion3">3</button>
+  </div>
+  <button class="button--on hidden">Encender</button>
+  <div class="interaccion__resultado--bien hidden">Felicitaciones</div>
+  <div class="interaccion__resultado--mal hidden">Te equivocaste</div>
 
+
+  </div>
+
+  
 
 
 
