@@ -239,6 +239,13 @@
   height: auto;
 }
 
+.avatar__planets {
+  width: 433px;
+  height: 624px;
+  -webkit-animation: float 6s ease-in-out infinite;
+          animation: float 6s ease-in-out infinite;
+}
+
 .avatar__planeta1 {
   top: 45px;
   left: 25px;

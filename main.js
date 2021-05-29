@@ -17,8 +17,10 @@ var amarillo = document.querySelector('.amarillo');
 var azulClaro = document.querySelector('.azulClaro');
 var amarrilloIn = document.querySelector('.amarrilloIn');
 var blanco = document.querySelector('.blanco');
-var naranja = document.querySelector('.naranja');
-
+var naranja = document.querySelector('.naranja'); 
+var planet = document.querySelector('.planets--show');
+var planet2  =document.querySelector('.avatar__planeta2');
+var planetsTrujillo = document.querySelector('.planets--Trujillo');
 
 for (var i = 0; i < pages.length; i++) {
   var page = pages[i];
@@ -31,8 +33,25 @@ document.addEventListener('DOMContentLoaded', function () {
   for (var i = 0; i < pages.length; i++) {
     //Or var page = pages[i];
     pages[i].pageNum = i + 1;
+
     pages[i].onclick = function () {
+
+      console.log(this.pageNum);
       if (this.pageNum % 2 === 0) {
+
+        if(this.pageNum===1 || this.pageNum===4){
+          planet2.classList.remove('hidden');
+        } else{
+          planet2.classList.add('hidden');
+        }
+
+        if(this.pageNum=== 7 || this.pageNum=== 10){
+          planet.classList.remove('hidden');
+        } else{
+          planet.classList.add('hidden');
+
+        }
+
         if (this.pageNum === 5 || this.pageNum === 8) {
           button.classList.remove('hidden');
           textInstruccion.classList.remove('hidden');
@@ -50,6 +69,13 @@ document.addEventListener('DOMContentLoaded', function () {
         this.previousElementSibling.classList.remove('flipped');
       }
       else {
+
+        if(this.pageNum===1 || this.pageNum===4){
+          planet2.classList.remove('hidden');
+        } else{
+          planet2.classList.add('hidden');
+        }
+
         if (this.pageNum === 5 || this.pageNum === 8) {
           button.classList.remove('hidden');
           textInstruccion.classList.remove('hidden');
@@ -61,10 +87,14 @@ document.addEventListener('DOMContentLoaded', function () {
           resultado1.classList.add('hidden');
           resultado2.classList.add('hidden');
 
-
-
-
         }
+
+          if(this.pageNum === 7 || this.pageNum=== 10){
+            planet.classList.remove('hidden');
+          } else{
+            planet.classList.add('hidden');
+  
+          }
         this.classList.add('flipped');
         this.nextElementSibling.classList.add('flipped');
       }

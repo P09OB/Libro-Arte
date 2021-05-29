@@ -220,6 +220,13 @@
     position: relative;
     z-index: 6;
 
+    &__planets{
+        width: 433px;
+	    height: 624px;
+	animation: float 6s ease-in-out infinite;
+         
+    }
+
     &__planeta1{
         top:45px;
         left: 25px;
@@ -335,3 +342,5 @@
     position: absolute;
 
 }
+
+
