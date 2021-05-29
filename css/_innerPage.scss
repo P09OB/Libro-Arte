@@ -1,84 +1,73 @@
-.innerPage{
+.innerPage {
     width: 100%;
-    
-    &--intro{
+
+    &--intro {
         background-size: cover;
         height: 100%;
-        background-image: url('../img/fondo1.png');
+        background-image: url("../img/fondo1.png");
     }
 
-    &--page3{
+    &--page3 {
         height: 100%;
 
         background-size: cover;
-        background-image: url('../img/henriettaFondo1.png');
-
+        background-image: url("../img/henriettaFondo1.png");
     }
 
-    &--page4{
+    &--page4 {
         height: 100%;
 
         background-size: cover;
-        background-image: url('../img/fondoInteract1.jpg');
-
+        background-image: url("../img/fondoInteract1.jpg");
     }
 
-    &--page5{
+    &--page5 {
         height: 100%;
 
         background-size: cover;
-        background-image: url('../img/fondoInteract2.jpg');
-
+        background-image: url("../img/fondoInteract2.jpg");
     }
-    &--page6{
+    &--page6 {
         height: 100%;
 
         background-size: cover;
-        background-image: url('../img/fondo8.png');
-
+        background-image: url("../img/fondo8.png");
     }
-    &--page7{
+    &--page7 {
         height: 100%;
 
         background-size: cover;
-        background-image: url('../img/fondoAnnie.png');
-
+        background-image: url("../img/fondoAnnie.png");
     }
-    &--page8{
+    &--page8 {
         height: 100%;
 
         background-size: cover;
-        background-image: url('../img/fondoInteract3.jpg');
-
+        background-image: url("../img/fondoInteract3.jpg");
     }
 
     &--page9 {
         height: 100%;
 
         background-size: cover;
-        background-image: url('../img/fondoInteract4.jpg');
-
+        background-image: url("../img/fondoInteract4.jpg");
     }
 
     &--page10 {
-
         height: 100%;
 
         background-size: cover;
-        background-image: url('../img/fondo8.png');
-
+        background-image: url("../img/fondo8.png");
     }
     &--page11 {
-
         height: 100%;
 
         background-size: cover;
-        background-image: url('../img/fondo9.png');
-
+        background-image: url("../img/fondo9.png");
     }
 }
 
-.text{
+.text {
     width: 85%;
     padding-left: 15px;
     font-family: EB Garamond;
@@ -87,74 +76,75 @@
     font-size: 1.07vw;
     line-height: 160%;
 
-
-    &__intro{
+    &__intro {
         display: flex;
         margin-left: 30px;
         margin-top: 20px;
     }
 
-    
-    &__henrietta{  
+    &__henrietta {
         width: 64%;
-        padding: 0% 2%; 
+        padding: 0% 2%;
     }
 
-    &__interaction1{
+    &__interaction1 {
         width: 94%;
         margin-left: 15px;
         padding-top: 30px;
     }
 
-    &__annie1{
+    &__annie1 {
         width: 57%;
     }
 
-    &__annie2{
+    &__annie2 {
         width: 55%;
         margin-left: 168px;
         margin-top: 5px;
     }
 
-    &__interaction2{
+    &__interaction2 {
         margin-left: 20px;
     }
 
-    &__interaction3{
+    &__interaction3 {
         padding-top: 105px;
-        width:70%;
+        width: 70%;
     }
 
-    &__diana{
+    &__diana {
         width: 80%;
         top: 100px;
         right: 50px;
         position: absolute;
     }
 
-    &__diana2{
+    &__diana2 {
         width: 50%;
         right: 20px;
         bottom: 30px;
         position: absolute;
     }
 
+    &__cursor{
+        font-size: 13px;
+        font-weight: bold;
+    }
 }
 
-.minitext{
+.minitext {
     width: 95%;
     padding: 0% 5%;
     margin-left: 25px;
     font-size: 13.5px;
 }
 
-
-.titles{
+.titles {
     width: 100%;
     display: flex;
     justify-content: center;
     padding: 0% 10%;
-    font-family: 'Motteka';
+    font-family: "Motteka";
     text-align: center;
     padding-top: 50px;
     font-style: normal;
@@ -162,174 +152,163 @@
     font-size: 40px;
     line-height: 100%;
 
-    &__interaction2{
+    &__interaction2 {
         font-size: 32px;
-        
     }
+}
 
-  }
-
-
-
-.textImageCont{
+.textImageCont {
     margin-top: 15px;
     width: 100%;
     display: flex;
 }
 
-.estrellasColores{
+.estrellasColores {
     width: 40%;
     margin-left: 16px;
 }
 
 @keyframes float {
-	0% {
-		transform: translatey(0px);
-	}
-	50% {
-		transform: translatey(-20px);
-	}
-	100% {
-		transform: translatey(0px);
-	}
+    0% {
+        transform: translatey(0px);
+    }
+    50% {
+        transform: translatey(-20px);
+    }
+    100% {
+        transform: translatey(0px);
+    }
 }
 
 @keyframes opacity {
-
     0% {
-		opacity: 0.5;
-	}
-	50% {
-		opacity: 0.5;
-
-	}
-	100% {
-		opacity: 1;
-	}
-    
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .avatar {
-	width: 150px;
-	height: 150px;
-	box-sizing: border-box;
-	overflow: hidden;
-	transform: translatey(0px);
-	animation: float 6s ease-in-out infinite;
-	img { width: 100%; height: auto; }
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+    overflow: hidden;
+    transform: translatey(0px);
+    animation: float 6s ease-in-out infinite;
+    img {
+        width: 100%;
+        height: auto;
+    }
     position: relative;
     z-index: 6;
 
-    &__planets{
+    &__planets {
         width: 433px;
-	    height: 624px;
-	animation: float 6s ease-in-out infinite;
-         
+        height: 624px;
+        animation: float 6s ease-in-out infinite;
     }
 
-    &__planeta1{
-        top:45px;
+    &__planeta1 {
+        top: 45px;
         left: 25px;
     }
 
-    &__planeta2{
+    &__planeta2 {
         bottom: 30px;
         left: 260px;
     }
-
 }
 
-.animation{
+.animation {
     opacity: 1;
-	animation: opacity 1s ease-in-out infinite
+    animation: opacity 1s ease-in-out infinite;
 }
 
-
-.estrella{
-
-    &__1{
+.estrella {
+    &__1 {
         top: 20px;
         right: 30px;
         position: absolute;
     }
 
-    &__1U{
+    &__1U {
         top: 20px;
         left: 70px;
         position: absolute;
     }
 
-    &__2{
-        top:90px;
+    &__2 {
+        top: 90px;
         right: 100px;
         position: absolute;
     }
 
-    &__3{
+    &__3 {
         bottom: 150px;
         right: 0px;
         position: absolute;
     }
 
-    &__4{
+    &__4 {
         left: 25px;
         top: 180px;
         position: absolute;
     }
 
-    &__5{
+    &__5 {
         transform: translateX(180px);
         position: absolute;
     }
 
-    &__6{
+    &__6 {
         bottom: 0px;
         left: 30px;
         position: absolute;
     }
 }
 
-
-.estrellaColor{
-
-    &__s1AA{
+.estrellaColor {
+    &__s1AA {
         bottom: 90px;
         left: -5px;
         position: absolute;
     }
 
-    &__s2N{
+    &__s2N {
         bottom: 0px;
-        right:25px;
+        right: 25px;
         position: absolute;
     }
 
-    
-    &__s4A{
+    &__s4A {
         bottom: 200px;
         left: 14px;
         position: absolute;
     }
 
-    &__s3R{
+    &__s3R {
         bottom: 50px;
         left: 100px;
         position: absolute;
     }
 
-    &__s7A{
+    &__s7A {
         bottom: 150px;
         right: 50px;
         position: absolute;
     }
 
-    &__s6A{
+    &__s6A {
         top: 180px;
         right: 120px;
         position: absolute;
     }
 
-    &__s5A{
+    &__s5A {
         top: 70px;
         right: 20px;
         position: absolute;
@@ -340,7 +319,59 @@
     bottom: 0px;
     left: 0px;
     position: absolute;
+}
+
+.button {
+    background-color: #261247;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    margin-top: 20px;
+    
+
+    &--option {
+        width: 70px;
+        font-size: 18px;
+    }
+
+    &--interaccion1{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.button:hover {
+    background-color: #502e89;
+    color: white;
+}
+
+.interaccion{
+
+    &__resultado{
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 20px;
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+    }
 
 }
 
+.keyImg{
+    width: 53px;
+    height: 53px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+
+
+}
+
+.organization{
+    width: 389px;
+    height: 525px;
+    margin-top: 20px;
+}
 

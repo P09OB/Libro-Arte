@@ -124,6 +124,11 @@
   position: absolute;
 }
 
+.text__cursor {
+  font-size: 13px;
+  font-weight: bold;
+}
+
 .minitext {
   width: 95%;
   padding: 0% 5%;
@@ -140,7 +145,7 @@
       -ms-flex-pack: center;
           justify-content: center;
   padding: 0% 10%;
-  font-family: 'Motteka';
+  font-family: "Motteka";
   text-align: center;
   padding-top: 50px;
   font-style: normal;
@@ -350,5 +355,57 @@
   bottom: 0px;
   left: 0px;
   position: absolute;
+}
+
+.button {
+  background-color: #261247;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+  margin-top: 20px;
+}
+
+.button--option {
+  width: 70px;
+  font-size: 18px;
+}
+
+.button--interaccion1 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button:hover {
+  background-color: #502e89;
+  color: white;
+}
+
+.interaccion__resultado {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.keyImg {
+  width: 53px;
+  height: 53px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.organization {
+  width: 389px;
+  height: 525px;
+  margin-top: 20px;
 }
 /*# sourceMappingURL=general.css.map */
