@@ -161,6 +161,7 @@ p {
 html,
 body {
   background-color: #fbf6a6;
+
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 html {
@@ -169,7 +170,8 @@ html {
 body {
   min-height: 100%;
   display: flex;
-  justify-content: center;
+  margin-left: 30px;
+
   align-items: center;
   padding: 2em 0;
   line-height: 1.5em;
